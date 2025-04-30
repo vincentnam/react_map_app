@@ -13,8 +13,8 @@
 
 - (2) : run react map app
 
-    npm run 
-    
+    npm start 
+
 
 
 
