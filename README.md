@@ -1,3 +1,42 @@
+# Project architecture : 
+
+- pmtiles file of world (~120Gb)
+- pmtiles server to serve tiles of the files (https://github.com/protomaps/go-pmtiles)
+- React app fetching tiles from server
+
+# To run the app : 
+(Windows)
+- (0) : Download pmtiles to serve
+- (1) : run pmtiles server (don't give path to the file but to the folder in pmtiles.exe) 
+    
+     .\pmtiles.exe serve PMTILES_FOLDER --cors=* 
+
+- (2) : run react map app
+
+    npm run 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
